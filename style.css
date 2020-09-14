@@ -1,0 +1,82 @@
+body, html {
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 10%;
+    flex-direction: row;    
+    /* border: 2px solid red; */
+}
+
+.head-left {
+    display: block;
+    font-size: 30px;
+}
+
+.head-right {
+    margin-top: 10px;
+    display: block;
+    width: 40%;
+}
+
+.main {
+    display: flex;
+    margin-right: 50px ;
+    margin-left: 50px ;
+    justify-content: space-between;
+    padding: 30px 60px;
+    flex-wrap:wrap;
+    /* border: 2px solid rgb(9, 255, 0); */
+    position: absolute;
+    /* justify-content: space-between; */
+    /* max-width: 1000px; */
+}
+
+.photos {    
+    float: left;
+    display: flex;
+    margin: 50px;   
+    /* border: 2px solid red; */
+    /* margin: 100px; */
+    width: 22%;
+    position: relative;
+    
+}
+/* .photos {
+    clear:both;
+  
+} */
+img {
+    width: 100%;
+    height: 85%;    
+    border-radius: 5px;
+    
+}
+
+.text {
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    font-size: 18px;
+    /* float: left; */
+    /* position: absolute; */
+    }
+
+.main div h3 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.photo2 {  
+    top: 100px;
+}
+
+.photo5 {  
+    top: 100px;
+}
