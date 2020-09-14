@@ -1,31 +1,49 @@
+/* body {
+    background-color: gray;
+} */
 .header {
+    background-color: rgb(226, 222, 222);
     display: flex;
     text-align: center;
     flex-direction: column;
     justify-content: center;
-    margin: 0 20%;
+    /* border: 1px solid red; */
+    margin: 0;
+    
 }
 
-.head-right {
-    margin-top: 0px;
+.head-right {  
     display: block;
-    width: 80%;
-    font-size: 12px;
+    width: 100%;
+    font-size: 11px;
+    margin-bottom: 5%;
+    color: rgb(59, 57, 57);
+    
+    /* border: 1px solid red; */
 }
 
-.head-left {
-    margin-left: -75px;
-    margin-bottom: -10px;
+.head-left {    
+    /* border: 1px solid red; */
+    margin: 0;
+    padding: 0;
+    width: 100%;
     display: block;
-    font-size: 15px;
+    font-size: 18px;
+    margin-bottom: -5%;
+    text-shadow: 2px 5px 5px rgb(82, 76, 76) ;
+    
 }
 
-.photo2 {
-    top: 0px;
+.main{
+    background-color: rgb(226, 222, 222);
+    flex-direction: row;
+    justify-content: center;
+    margin: 0;
+    padding: 0;    
 }
 
-.photo5 {
-    top: 0px;
+.main div h3 {
+    font-size: 11px;
 }
 
 .text {
@@ -34,18 +52,24 @@
 
 .main div h3 {
     font-size: 13px;
+    text-shadow: 2px 5px 5px rgb(82, 76, 76) ;
 }
 .photos {    
-    margin:5px;     
-    width: 44%;
+    margin: 8px;     
+    width: 40%;
 }
 
-.main{
-    flex-direction: row;
-    justify-content: center;
-    margin-left: 0px;
+.photos:hover {    
+    opacity: 0.8;    
 }
 
-.main div h3 {
-    font-size: 7px;
-}
+/* .photo2 {
+    top: 0px;
+} */
+
+/* .photo5 {
+    top: 0px;
+} */
+
+
+
