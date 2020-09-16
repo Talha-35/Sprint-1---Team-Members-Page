@@ -60,7 +60,8 @@
 }
 
 .photos:hover {    
-    opacity: 0.8;    
+    opacity: 0.8;
+    border: 3px solid black;    
 }
 
 /* .photo2 {
