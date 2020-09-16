@@ -1,6 +1,6 @@
 Sprint 1
 
-link : https://talha-35.github.io/Team-Members-Page/
+link : https://talha-35.github.io/Sprint-1---Team-Members-Page/.
 
 
 Sprint-1 Assignment (HTML&CSS Plus)
